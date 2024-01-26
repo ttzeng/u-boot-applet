@@ -1,0 +1,6 @@
+obj-y := dhry_1.o dhry_2.o utils.o
+
+CFLAGS_dhry_1.o = -DTIME -DSTANDALONE
+CFLAGS_dhry_2.o = -DTIME -DSTANDALONE
+
+include $(dir $(obj))common/build.mk
