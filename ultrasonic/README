@@ -1,0 +1,6 @@
+To run this demo, wire the ultrasonic ranging module HC-SR04 to the following
+pins on the ARMEVB1 board:
+VCC     -   JP4 #1  VCC
+Trig    -   JP4 #4  PA4
+Echo    -   JP3 #33 CTGATE1
+Gnd     -   JP4 #2  GND
