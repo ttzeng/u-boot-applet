@@ -1,0 +1,1 @@
+include $(dir $(obj))common/build.mk

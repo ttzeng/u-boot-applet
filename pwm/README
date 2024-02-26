@@ -1,0 +1,6 @@
+This demo drives a RGB LED with 3 PWM channels from the LH77790 SOC.
+To run the demo, wire the RGB LED to the following pins on the ARMEVB1 board:
+R       -   JP3 #8  PWM0
+G       -   JP3 #9  PWM1
+B       -   JP3 #10 PWM2
+Gnd     -   JP3 #2  GND
